@@ -1,0 +1,45 @@
+.navigation-footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #384047;
+  left: 0;
+  box-shadow: 0px -1px rgba(255, 255, 255, .1);
+
+  div {
+    height: 42px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .user-selfie-box {
+    padding: 8px 10px 12px;
+
+    img {
+      height: 26px;
+      width: 26px;
+      border-radius: 50%;
+      border: 1px solid #bbb;
+    }
+  }
+
+  .text {
+    color: rgba(255, 255, 255, 0.5);
+    width: 170px;
+    padding: 11px 0;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .logout-button {
+    padding: 12px;
+
+    .icon-logout {
+      width: 18px;
+      height: 18px;
+      background: url("icons/icon-logout.png") no-repeat;
+      display: inline-block;
+    }
+  }
+}

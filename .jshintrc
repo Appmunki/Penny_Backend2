@@ -1,0 +1,83 @@
+{
+  // Default JSHint Configuration
+  // http://jshint.com/docs
+
+  "maxerr":    50,           // maximum errors before stopping
+
+  // Enforcing
+  "camelcase": false,        // require camelcase variables
+  "eqeqeq":    true,         // require triple equals (===)
+  "immed":     true,         // require IIFEs to be wrapped in parens
+  "indent":    2,            // number of spaces defined for indentation
+  "quotmark":  "double",     // require double quotes
+  "latedef":   true,         // require variables/functions to be defined before use
+  "newcap":    true,         // require capitalization on constructors
+  "noarg":     true,         // prevent the use of `arguments.caller` and `arguments.callee`
+  "nonbsp":    true,         // prevent non-breaking spaces
+  "noempty":   true,         // prevent empty blocks
+  "nonew":     true,         // prevent use of constructors without assignemtn to a var
+  "trailing":  true,         // prevent trailing spaces
+  "undef":     true,         // require all non-global variables be declared
+
+  // Relaxing
+  "asi":       false,        // allow automatic semicolon insertion
+  "boss":      false,        // allow assignments where comparisons would be expected
+  "debug":     false,        // allow debugger statements
+  "eqnull":    false,        // allow `== null`
+  "evil":      false,        // allow use of `eval` or `new Function()`
+  "expr":      true,         // allow `ExpressionStatement` as Programs
+  "funcscope": false,        // allow variable definition in control statements
+  "iterator":  false,        // allow use of the `__iterator__` property
+  "lastsemic": false,        // allow omitting a semicolon on last statement of 1-line block
+  "laxbreak":  false,        // allow possibly unsafe line breaks
+  "laxcomma":  false,        // allow comma-first style coding
+  "loopfunc":  false,        // allow function declaration in loops
+  "multistr":  false,        // allow multi-line strings
+  "notypeof":  false,        // allows invalid comparison values for `typeof`
+  "proto":     false,        // allow use of the `__proto__` property
+  "scripturl": false,        // allow script-targeted URLs
+  "smarttabs": false,        // allow use of mixed tabs and spaces
+  "supernew":  false,        // allow `new function() {...};` and `new Object;`
+
+  // Globals
+  "browser":   true,         // web browser globals
+  "devel":     true,         // development globals (alert, console, etc)
+  "jquery":    true,         // jquery globals
+
+  "globals":   {             // additional global variables
+    // env
+    "require":    true,
+    "module":     true,
+
+    // libs
+    "Backbone":   true,
+    "_":          true,
+    "Bugsnag":    true,
+    "React":      true,
+    "jest":       true,
+    "domready":   true,
+    "reqwest":    true,
+
+    // namespacing
+    "page":       true,
+    "PG":         true,
+
+    // specs
+    "after":      false,
+    "afterEach":  false,
+    "before":     false,
+    "beforeEach": false,
+    "chai":       false,
+    "describe":   true,
+    "expect":     true,
+    "should":     false,
+    "sinon":      false,
+    "it":         true,
+    "xit":        false,
+    "jsPath":     true,
+    "inspect":    true,
+    "utils":      true,
+    
+    "genMockComponent":       true
+  }
+}

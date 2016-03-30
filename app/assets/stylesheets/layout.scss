@@ -1,0 +1,87 @@
+@import 'color';
+
+$penny-color: $md-orange-500;
+
+body {
+  padding-top: 70px;
+  background: $penny-color url("images/financial_orange_background.png") repeat;
+}
+
+.account-button-block {
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+
+#penny-navbar {
+  background-color: white;
+
+}
+
+.penny-text {
+  color: $penny-color;
+}
+
+.penny-icon {
+  width: 51px;
+  height: 48px;
+  display: block;
+  background: url("images/penny_icon_small.png");
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  fill: white;
+}
+
+.donation-table {
+  padding: 30px;
+  height: 500px;
+  width: 100%;
+  margin-bottom: 30px;
+  overflow-y: scroll;
+}
+
+.account_card {
+  width: 500px;
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+a.navbar-brand.penny-secondary-color {
+  color: $penny-color;
+  font-weight: bold;
+}
+
+a.navbar-brand.penny-secondary-color:hover {
+  color: $penny-color;
+  font-weight: bold;
+}
+
+a.navbar-brand.penny-secondary-color:focus {
+  color: $penny-color;
+  font-weight: bold;
+}
+
+a.navbar-item.nav-link.navbar-right {
+  color: #D2DCDC;
+}
+
+.navbar-default .navbar-nav > li > a {
+  background-color: white;
+  color: $penny-color;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: white;
+  color: $penny-color;
+}
+
+.navbar-default .navbar-nav > li > a:active {
+  background-color: white;
+  color: $penny-color;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a, .navbar-default .navbar-nav .open .dropdown-menu {
+  background-color: white;
+  color: $penny-color;
+}
